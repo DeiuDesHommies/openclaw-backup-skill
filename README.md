@@ -5,6 +5,8 @@ A truly universal backup solution for OpenClaw that automatically adapts to any 
 [![Release](https://img.shields.io/github/v/release/DeiuDesHommies/openclaw-backup-skill)](https://github.com/DeiuDesHommies/openclaw-backup-skill/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+English | [简体中文](README_ZH.md)
+
 ## 🚀 Quick Install (One Command)
 
 ```bash
@@ -168,10 +170,9 @@ That's it! The skill will:
 ## Compatibility
 
 ### OpenClaw Versions
-- ✅ v2024.x
-- ✅ v2025.x
-- ✅ v2026.x
-- ✅ Future versions (auto-adapts)
+- ✅ All versions (version-agnostic design)
+- ✅ Automatically adapts to configuration schema changes
+- ✅ Works with latest npm releases
 
 ### Platforms
 - ✅ macOS 10.15+
