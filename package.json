@@ -1,6 +1,6 @@
 {
   "name": "@openclaw-community/backup-universal",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Universal OpenClaw configuration backup and restore tool with automatic detection",
   "main": "index.js",
   "keywords": ["openclaw", "backup", "restore", "configuration", "disaster-recovery", "universal", "cross-platform"],

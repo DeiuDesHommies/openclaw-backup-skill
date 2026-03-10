@@ -2,6 +2,22 @@
 
 A truly universal backup solution for OpenClaw that automatically adapts to any configuration.
 
+[![Release](https://img.shields.io/github/v/release/DeiuDesHommies/openclaw-backup-skill)](https://github.com/DeiuDesHommies/openclaw-backup-skill/releases)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+## 🚀 Quick Install (One Command)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/DeiuDesHommies/openclaw-backup-skill/main/install.sh | bash
+```
+
+Or download and run:
+
+```bash
+wget https://github.com/DeiuDesHommies/openclaw-backup-skill/releases/download/v1.0.0/openclaw-backup-universal.tar.gz
+tar -xzf openclaw-backup-universal.tar.gz -C ~/.openclaw/workspace/skills/
+```
+
 ## Why Universal?
 
 Unlike traditional backup tools that assume a fixed structure, this skill:
@@ -40,10 +56,25 @@ Unlike traditional backup tools that assume a fixed structure, this skill:
 
 ## Installation
 
-### Method 1: Manual Installation
+### 🎯 Method 1: One-Click Install (Recommended)
 
 ```bash
-# Download and extract
+curl -fsSL https://raw.githubusercontent.com/DeiuDesHommies/openclaw-backup-skill/main/install.sh | bash
+```
+
+This will:
+- ✅ Auto-detect your OpenClaw installation
+- ✅ Download the latest release
+- ✅ Extract to the correct location
+- ✅ Show you how to enable the skill
+
+### 📦 Method 2: Manual Download
+
+```bash
+# Download from GitHub releases
+wget https://github.com/DeiuDesHommies/openclaw-backup-skill/releases/download/v1.0.0/openclaw-backup-universal.tar.gz
+
+# Extract to skills directory
 tar -xzf openclaw-backup-universal.tar.gz -C ~/.openclaw/workspace/skills/
 
 # Enable in openclaw.json
@@ -58,7 +89,7 @@ tar -xzf openclaw-backup-universal.tar.gz -C ~/.openclaw/workspace/skills/
 openclaw gateway restart
 ```
 
-### Method 2: Quick Install (if supported)
+### ⚡ Method 3: Quick Install (if supported)
 
 ```bash
 openclaw skill install openclaw-backup-universal
